@@ -1,0 +1,33 @@
+.table{
+    border: none;
+    border-collapse: collapse;
+    border: 1px solid #132347;
+    border-radius: 10px;
+}
+th, 
+td{
+    padding: 1.18rem 1rem !important;
+    font-size: 1rem;
+    text-align: center;
+    color: #bab1fa;
+}
+
+thead{
+    background: #7865ff;
+    color: #fff;
+}
+thead tr th{
+    color: white;
+}
+
+td{
+    font-weight: lighter !important;
+}
+
+tr:nth-child(even){
+    background: #102048;
+}
+
+td:last-child{
+    padding-bottom: 0;
+}

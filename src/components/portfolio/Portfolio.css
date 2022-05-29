@@ -1,0 +1,76 @@
+.portfolio_top_header{
+    color: white;
+    padding-top: 3rem;
+    margin-top: 2rem 0;
+    text-align: center;
+    text-transform: uppercase;
+    pointer-events: none;
+}
+
+.portfolio_top h6{
+    color: #7865ff;
+    text-align: center;
+    pointer-events: none;
+    margin-bottom: 2rem;
+}
+
+.portfolio_card{
+    position: relative;
+    z-index: 90;
+    margin-bottom: 2rem;
+}
+
+.portfolio_content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(3, 15, 192, 0.6), rgba(0, 6, 121, 0.6));
+    z-index: 93;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transform: translateY(-50%);
+    opacity: 0;
+    transition: .5s;
+    border-radius: 2.5rem 0;
+    pointer-events: none;
+    padding-bottom: 1rem;
+}
+
+.portfolio_card:hover .portfolio_content{
+    transform: translateY(0);
+    opacity: 1;
+    pointer-events: none;
+}
+.portfolio_content a{
+    color: white;
+    font-size: 0.9rem;
+    pointer-events: fill;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 4px;
+    border: 1px solid #ef4035;
+}
+
+.portfolio_content a:hover{
+    border: 1px solid #f9ab00;
+}
+
+.portfolio_content h5{
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    font-weight: 500;
+    text-align: center;
+}
+.portfolio_img img{
+    border-radius: 2.5rem 0;
+    height: 15rem;
+}
+.content_top h6{
+    color: #f9ab00;
+    font-weight: 500;
+}

@@ -1,0 +1,66 @@
+section{
+    z-index: 2;
+    position: relative;
+    padding-top: 6rem;
+}
+.about_me_header {
+    color: white;
+    padding-top: 1.5rem;
+    margin-top: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.about_btns{
+    background: #102048;
+    border-radius: 10px;
+}
+
+.about_btn{
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 20px;
+    color: white;
+    background: transparent;
+    border-bottom: 1px solid #7865ff;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.about_btn-active{
+    background: #7865ff;
+}
+
+.about_btn:last-child{
+    border-bottom: 0;
+    border-radius: 0 0 5px 5px;
+}
+
+.about_content_wrapper{
+    background: #132347;
+    border-radius: 10px;
+    color: white;
+    padding: 0.7rem;
+}
+
+.about_content h2{
+    margin-bottom: 0.5rem;
+    color: white;
+    text-transform: capitalize;
+}
+.about_content p{
+    line-height: 30px;
+    font-weight: 300;
+    color: #bab1fa;
+    text-align: justify;
+}
+
+.social_links span a {
+    color: #bbb4f0;
+}
+.about_img img{
+    border-bottom: 2px solid #c0c0c0;
+}
+.social_links span{
+    margin-right: 1rem;
+}
