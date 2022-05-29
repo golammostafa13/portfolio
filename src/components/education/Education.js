@@ -30,7 +30,7 @@ export const Education = () => {
                 <th>SSC</th>
                 <th>Science</th>
                 <th>Majigacha Akteruzzaman High School</th>
-                <th>2013</th>
+                <th>2012-2013</th>
             </tr>
         </tbody>
     </Table>
