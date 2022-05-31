@@ -1,41 +1,74 @@
-import React from 'react'
+import React, {useRef, useEffect} from 'react'
 import logo from '../../logo.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faBars} from '@fortawesome/free-solid-svg-icons'
-import { Modal, ModalBody, ModalFooter, ModalHeader, Button } from 'reactstrap'
+import {Container} from 'reactstrap';
+import './Navbar.css';
 
 export const Navbar = () => {
+   const navLinks = [
+      {
+         display: 'Home',
+         url: '#header',
+      },
+      {
+         display: 'About Me',
+         url: '#about',
+      },
+      {
+         display: 'Portfolio',
+         url: '#portfolio',
+      },
+      {
+         display: 'Blog',
+         url: '#blog',
+      },
+      {
+         display: 'Contact Me',
+         url: '#contact',
+      }
+   ]
+   const headerRef = useRef(null);
+
+   useEffect(()=> {
+      window.addEventListener('scroll', (e) =>{
+         if(document.body.scrollTop > 80 || document.documentElement.scrollTop > 80){
+            headerRef.current.classList.add('header_shrink')
+         }else{
+            headerRef.current.classList.remove('header_shrink');
+         }
+      })
+
+      return  window.removeEventListener('scroll', ()=>{})
+
+   }, [])
+
+   const menuRef = useRef(null);
+
+   const menuToggle = ()=> menuRef.current.classList.toggle('menu_active');
 
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark" >
-         <div className="container">
-            <a className="navbar-brand" href="#"><img className='logo' src={logo} alt="logo"/></a>
-        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <FontAwesomeIcon icon={faBars} style={{color: '#fff'}} />
-        </button>
-
-        <div className="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-               <ul className="navbar-nav ml-auto">
-                  <li className="nav-item">
-                     <a className="nav-link" aria-current="page" href="#header">Home</a>
-                  </li>
-                  <li className="nav-item">
-                     <a className="nav-link" href="#about">About me</a>
-                  </li>
-                  <li className="nav-item">
-                     <a className="nav-link" href="#portfolio">Portfolio</a>
-                  </li>
-                  <li className="nav-item">
-                     <a className="nav-link" href='#blog'>Blog</a>
-                  </li>
-                  <li className="nav-item">
-                     <a className="nav-link" href="#contact">Contact</a>
-                  </li>
+    <header className='header' ref={headerRef}>
+       <Container>
+         <div className='navigation d-flex align-items-center justify-content-between'>
+            <div className='logo'><img src={logo} /></div>
+            <div className='nav_menu'>
+               <ul className='nav_list'>
+                  {
+                     navLinks.map(( item, idx ) => (
+                        <li key={idx} className='nav_item'>
+                           <a href={item.url}>{item.display}</a>
+                        </li>))
+                  }
+                  
                </ul>
             </div>
+            <div className='nav-right '>
+               <FontAwesomeIcon className='mobile_menu' icon={faBars} />
+            </div>
          </div>
-      </nav>
-    
+       </Container>
+    </header>
   )
 }
 

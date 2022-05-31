@@ -1,7 +1,6 @@
 .container{
     z-index: 100;
     position: relative;
-    padding-top: 1rem 0;
     margin-bottom: 1rem;
 }
 section h2{

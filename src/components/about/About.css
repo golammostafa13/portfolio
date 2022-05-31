@@ -1,12 +1,7 @@
-section{
-    z-index: 2;
-    position: relative;
-    padding-top: 6rem;
-}
+
 .about_me_header {
     color: white;
-    padding-top: 1.5rem;
-    margin-top: 2rem;
+    margin-top: 3.8rem;
     text-align: center;
     text-transform: uppercase;
 }
@@ -44,15 +39,16 @@ section{
 }
 
 .about_content h2{
+    margin-top: 17px;
     margin-bottom: 0.5rem;
     color: white;
     text-transform: capitalize;
 }
 .about_content p{
-    line-height: 30px;
     font-weight: 300;
     color: #bab1fa;
     text-align: justify;
+    margin-bottom: 20px;
 }
 
 .social_links span a {

@@ -1,11 +1,11 @@
 .award_container{
-    padding-bottom: 0.8rem;
     color: white;
+    margin-bottom: 0;
 }
 
 .single_award{
     background: #132347;
-    padding: 10px;
+    padding: 11px;
     border-radius: 10px;
     border-bottom: 1px solid #7865ff;
     border-right: 1px solid #7865ff;
@@ -20,5 +20,5 @@
 
 .award_year{
     color: white;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }

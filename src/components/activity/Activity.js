@@ -3,7 +3,7 @@ import './Activity.css';
 
 export const Activity = () => {
   return (
-    <div className='award_container d-flex align-items-center flex-wrap gap-4'>
+    <div className='award_container d-flex align-items-center flex-wrap gap-2'>
       <div className='single_award'>
         <div className='award_year'>2019-2020</div>
         <h6 className='award_title' style={{textAlign: 'justify', lineHeight: '1.5rem'}}>

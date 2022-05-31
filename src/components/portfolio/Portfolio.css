@@ -16,7 +16,7 @@
 
 .portfolio_card{
     position: relative;
-    z-index: 90;
+    z-index: 0;
     margin-bottom: 2rem;
 }
 
