@@ -9,6 +9,7 @@
 .about_btns{
     background: #102048;
     border-radius: 10px;
+    position: relative;
 }
 
 .about_btn{
@@ -35,6 +36,7 @@
     background: #132347;
     border-radius: 10px;
     color: white;
+    position: relative;
     padding: 0.7rem;
 }
 
