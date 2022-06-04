@@ -52,7 +52,7 @@ export const Navbar = () => {
        <Container>
          <div className='navigation d-flex align-items-center justify-content-between'>
             <div className='logo'><img src={logo} /></div>
-            <div className='nav_menu'>
+            <div className='nav_menu' ref={menuRef} onClick={menuToggle} >
                <ul className='nav_list'>
                   {
                      navLinks.map(( item, idx ) => (
@@ -60,11 +60,10 @@ export const Navbar = () => {
                            <a href={item.url}>{item.display}</a>
                         </li>))
                   }
-                  
                </ul>
             </div>
             <div className='nav-right '>
-               <FontAwesomeIcon className='mobile_menu' icon={faBars} />
+               <FontAwesomeIcon className='mobile_menu' icon={faBars} onClick={menuToggle} />
             </div>
          </div>
        </Container>

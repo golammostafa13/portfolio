@@ -1,6 +1,7 @@
 #contact{
     margin-top: 1rem;
     position: relative;
+    margin-bottom: 1rem;
 }
 section h2{
     /* margin-top: 2.1rem; */
@@ -29,4 +30,16 @@ section h2{
     font-size: 1.1rem;
     color: white;
     text-align: center;
+}
+
+@media only screen and (max-width: 992px){
+    .single_info-box{
+        padding: 8px 4px;
+    }
+    .single_info-box h6{
+        font-size: 0.8rem;
+    }
+    .single_info-box p{
+        font-size: 0.6rem;
+    }   
 }

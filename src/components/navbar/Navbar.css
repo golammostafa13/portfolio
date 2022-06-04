@@ -29,7 +29,7 @@
     color: #7865ff;
   }
 
-  .mobile_menu{
+  .mobile_menu {
       color: white;
       font-size: 1.3rem;
       cursor: pointer;
@@ -39,4 +39,50 @@
   .header_shrink{
       background: #132347;
       box-shadow: 2px 2px 4px -2px #7865ff;
+      transition: 0.7s;
+      border-bottom: 1px solid #7865ff;
   }
+@media only screen and (max-width: 375px){
+  .mobile_menu{
+    display: block;
+  }
+  .nav_list{
+    width: 5rem;
+    height: 100%;
+  }
+  .menu_active{
+    display: block;
+  }
+}
+  
+@media only screen and (max-width: 767px){
+  .nav_menu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: hwb(247 40% 0% / 0.412);
+    z-index: 1000;
+    display: none;
+  }
+
+  .nav_list{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 15rem;
+    height: 100%;
+    background: #132347;
+    z-index: 1001;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .menu_active{
+    display: block;
+  }
+  .mobile_menu{
+    display: block;
+  }
+}

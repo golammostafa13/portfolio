@@ -17,6 +17,7 @@ export const About = () => {
                     <h2 className='about_me_header'>About Me</h2>
                 </Col>
 
+                <div className='button_content-wrapper d-flex gap-4'>
                 <Col lg='4' mb='3'>
                     <div className='about_btns d-flex flex-column align-items-center'>
                         <button className={`about_btn ${aboutFilter==='ABOUT' ? 'about_btn-active' : ''}`} onClick={()=> setAboutFilter('ABOUT')}>About Me</button>
@@ -54,6 +55,7 @@ export const About = () => {
                         aboutFilter === 'ACTIVITY' && <Activity />
                     }
                 </Col>
+                </div>
             </Row>
         </Container>
     </section>

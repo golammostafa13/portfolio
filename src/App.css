@@ -58,7 +58,7 @@ a:hover{
   /* background: url(background.jpg); */
   /* background-size: cover;
   background-position: center; */
-  height: 100vh;
+  height: 90vh;
 }
 
 .main-info{
@@ -136,36 +136,9 @@ a:hover{
   background: #282f4e;
 }
 
-
-/* --------------responsive----------- */
-
-
-@media only screen and (max-width: 992px){
-  .nav_menu{position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: #7765ff69;
-    z-index: 1000;
-  }
-
-  .nav_list{
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 250px;
-    height: 100%;
-    background: #132347;
-    z-index: 1001;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .menu_active{
-    display: block;
-  }
-  .mobile_menu{
-    display: block;
+/* -------------------responsive------------- */
+@media (max-width: 767px) {
+  h2, h3{
+    font-size: 1.5rem;
   }
 }

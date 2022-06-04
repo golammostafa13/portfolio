@@ -10,6 +10,7 @@
     background: #102048;
     border-radius: 10px;
     position: relative;
+    margin-bottom: 15px;
 }
 
 .about_btn{
@@ -61,4 +62,31 @@
 }
 .social_links span{
     margin-right: 1rem;
+}
+
+@media only screen and (max-width: 767px) {
+    
+    .button_content-wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about_btn{
+        padding: 1rem;
+        font-size: 0.6rem;
+    }
+
+    .about_content h2{
+        font-size: 1.6rem;
+    }
+
+    .about_content p{
+        font-size: 0.8rem;
+        line-height: 28px;
+    }
+
+    .about_img{
+        height: 100px;
+    }
 }

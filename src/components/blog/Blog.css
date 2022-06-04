@@ -66,3 +66,10 @@
     color: #f9ab00;
     font-weight: 500;
 }
+
+/* --------responsive---------- */
+@media only screen and(max-width: 375px){
+    .blog_img img{
+        height: 10rem;
+    }
+}
