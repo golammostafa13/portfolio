@@ -90,4 +90,7 @@
     .portfolio_content h5{
         font-size: 1.2rem;
     }
+    .portfolio_top{
+        margin-bottom: 0 !important;
+    }
 }

@@ -12,7 +12,7 @@ export const About = () => {
   return (
     <section id='about'>
         <Container>
-            <Col lg='12' className='mb-5'>
+            <Col lg='12' className='mb-5 header_about'>
                 <h2 className='about_me_header'>About Me</h2>
             </Col>
             <Row>

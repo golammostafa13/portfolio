@@ -32,6 +32,9 @@ section h2{
 }
 
 @media only screen and (max-width: 375px){
+    #contact{
+        padding: 4rem 0;
+    }
     .single_info-box p{
         font-size: 0.6rem !important;
     }

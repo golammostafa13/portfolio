@@ -59,7 +59,7 @@ export const Skills = () => {
         <div className='backend_skill w-50'>
             {
                 backendSkills.map((item, idx) =>(
-                    <div className='skill_data mb-3'>
+                    <div key={idx} className='skill_data mb-3'>
                         <div className='skill_title d-flex align-items-center justify-content-between'>
                             <h6>{item.title}</h6>
                             <span>{item.percentage}</span>

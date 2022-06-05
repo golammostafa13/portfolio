@@ -1,13 +1,17 @@
 .table{
     border-collapse: collapse;
     border: 1px solid #132347;
-    border-radius: 10px;
     margin-bottom: 0;
 }
 th, 
 td{
-    padding: 1.3rem 1rem !important;
-    font-size: 0.9rem;
+    padding: 0.7rem 0 !important;
+    font-size: 0.8rem;
+    text-align: center;
+    color: #bab1fa;
+}
+.table p{
+    font-size: 0.55rem;
     text-align: center;
     color: #bab1fa;
 }
@@ -34,8 +38,11 @@ td:last-child{
 
 @media only screen and (max-width: 375px){
     th, td{
-        padding: 1.35rem 0.3rem !important;
+        padding: 1.35rem 0.2rem !important;
         font-size: 0.6rem !important;
+    }
+    th p{
+        font-size: 0.5rem !important;
     }
 }
 
