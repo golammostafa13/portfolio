@@ -79,3 +79,15 @@
 }
 
 /* ----------------------responsive------------- */
+@media only screen and (max-width: 375px){
+    .portfolio_img img{
+        height: 12rem;
+        border-radius: 1rem;
+    }
+    .portfolio_content{
+        border-radius: 1rem;
+    }
+    .portfolio_content h5{
+        font-size: 1.2rem;
+    }
+}

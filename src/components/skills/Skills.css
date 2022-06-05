@@ -30,3 +30,19 @@
 .skill_title{
     color: white;
 }
+
+/* responsive */
+
+@media only screen and (max-width: 375px){
+    .skill_data{
+        padding: 1.14rem 0.75rem;
+    }    
+    .skill_title{
+        font-size: 0.5rem;
+        flex-direction: row;
+    }
+    .skill_title h6{
+        font-size: 0.8rem;
+        margin-right: 0.3rem;
+    }
+}

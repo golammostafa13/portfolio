@@ -1,5 +1,6 @@
 import React from 'react'
 import Typed from 'react-typed'
+const resumeUrl = 'https://drive.google.com/file/d/1fcsZi8USSuqJat2KAjUi1_tdsSJbmqyb/view?usp=sharing';
 
 export const Header = () => {
   return (
@@ -15,7 +16,7 @@ export const Header = () => {
                 typeSpeed={40}
                 backSpeed={50} 
                 loop/>
-            <a href='#' className='btn-main-resume'>Download Resume</a>
+            <a href={resumeUrl} target="_blank" className='btn-main-resume'>Download Resume</a>
         </div>
     </div>
   )

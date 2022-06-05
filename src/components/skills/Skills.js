@@ -40,11 +40,11 @@ const backendSkills = [
 
 export const Skills = () => {
   return (
-    <div className='skills_wrapper d-flex gap-5'>
+    <div className='skills_wrapper d-flex gap-4'>
         <div className='frontend_skill w-50'>
             {
                 frontendSkills.map((item, idx) =>(
-                    <div className='skill_data mb-3'>
+                    <div key={idx} className='skill_data mb-3'>
                         <div className='skill_title d-flex align-items-center justify-content-between'>
                             <h6>{item.title}</h6>
                             <span>{item.percentage}</span>

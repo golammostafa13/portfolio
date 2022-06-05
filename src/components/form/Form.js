@@ -28,7 +28,7 @@ export const Form = () => {
             <textarea placeholder="Write Message" value={enteredMessage} onChange={(e) => setEnteredMessage(e.target.value)}></textarea>
         </div>
 
-        <button className='submit_btn' type='submit'>Sent Message</button>
+        <button className='submit_btn' type='submit'>Send Message</button>
     </form>
   )
 }

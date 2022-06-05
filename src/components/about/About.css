@@ -41,6 +41,10 @@
     padding: 0.7rem;
 }
 
+.about_content{
+    width: 75%;
+}
+
 .about_content h2{
     margin-top: 17px;
     margin-bottom: 0.5rem;
@@ -64,7 +68,30 @@
     margin-right: 1rem;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 375px){
+    .about_btns{
+        font-size: 0.5rem;
+    }
+    .about_btn{
+        padding: 2.15rem 0.4rem;
+    }
+    .about_content{
+        padding: 0 0.4rem;
+        width: 100% !important;
+    }
+    .social_links{
+        text-align: center;
+    }
+    .about_content h2{
+        font-size: 1.12rem;
+        font-weight: bold;
+    }
+    .about_img{
+        display: none;
+    }
+}
+
+/* @media only screen and (max-width: 767px) {
     
     .button_content-wrapper{
         display: flex;
@@ -89,4 +116,4 @@
     .about_img{
         height: 100px;
     }
-}
+} */

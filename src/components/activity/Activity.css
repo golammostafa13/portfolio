@@ -22,3 +22,20 @@
     color: white;
     margin-bottom: 10px;
 }
+
+/* responsive */
+@media only screen and (max-width: 375px){
+    .single_award{
+        padding: 0.54rem;
+    }
+    .award_year{
+        font-size: 0.8rem;
+    }
+    .award_title span{
+        font-size: 0.7rem;
+        padding: 0.2rem;
+    }
+    .single_award h6{
+        font-size: 0.8rem;
+    }
+}

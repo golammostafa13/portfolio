@@ -12,11 +12,10 @@ export const About = () => {
   return (
     <section id='about'>
         <Container>
+            <Col lg='12' className='mb-5'>
+                <h2 className='about_me_header'>About Me</h2>
+            </Col>
             <Row>
-                <Col lg='12' className='mb-5'>
-                    <h2 className='about_me_header'>About Me</h2>
-                </Col>
-
                 <div className='button_content-wrapper d-flex gap-4'>
                 <Col lg='4' mb='3'>
                     <div className='about_btns d-flex flex-column align-items-center'>
@@ -34,7 +33,7 @@ export const About = () => {
                                 <img src={aboutImg} alt='about img' className='w-100' />
                             </div>
 
-                            <div className='about_content w-75'>
+                            <div className='about_content'>
                                 <h2>I'm Golam Mostafa</h2>
                                 <p>A hardworking and energetic programmer who cherishes a dream to change the world through coding and seeking an opportunity from a reputed company to explore latent talent and nourish skills.</p>
                                 <div className='social_links'>
