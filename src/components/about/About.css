@@ -74,11 +74,9 @@
     #about{
         padding-top: 1rem;
     }
-    .about_btns{
-        font-size: 0.8rem;
-    }
     .about_btn{
-        padding: 2rem 0.3rem;
+        padding: 1.95rem 0.3rem;
+        font-size: 0.7rem;
     }
     .about_content{
         padding: 0 0.4rem;
@@ -89,7 +87,7 @@
     }
     .about_content p{
         font-size: 0.9rem;
-        line-height: 1.64rem;
+        line-height: 1.7rem;
     }
     .social_links{
         text-align: center;

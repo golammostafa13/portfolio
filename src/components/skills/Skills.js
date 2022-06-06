@@ -46,7 +46,7 @@ export const Skills = () => {
                 frontendSkills.map((item, idx) =>(
                     <div key={idx} className='skill_data mb-3'>
                         <div className='skill_title d-flex align-items-center justify-content-between'>
-                            <h6>{item.title}</h6>
+                            <h6 className='title'>{item.title}</h6>
                             <span>{item.percentage}</span>
                         </div>
                         <div className='skill_bar'>
@@ -61,7 +61,7 @@ export const Skills = () => {
                 backendSkills.map((item, idx) =>(
                     <div key={idx} className='skill_data mb-3'>
                         <div className='skill_title d-flex align-items-center justify-content-between'>
-                            <h6>{item.title}</h6>
+                            <h6 className='title'>{item.title}</h6>
                             <span>{item.percentage}</span>
                         </div>
                         <div className='skill_bar'>
