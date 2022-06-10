@@ -46,6 +46,12 @@
 .about_content{
     width: 75%;
 }
+.about_typed-text{
+    font-weight: 300;
+    color: #bab1fa;
+    text-align: justify;
+    margin-bottom: 20px;
+}
 
 .about_content h2{
     margin-top: 17px;
@@ -53,23 +59,21 @@
     color: white;
     text-transform: capitalize;
 }
-.about_content p{
-    font-weight: 300;
-    color: #bab1fa;
-    text-align: justify;
-    margin-bottom: 20px;
-}
 
 .social_links span a {
     color: #bbb4f0;
 }
 .about_img img{
     border-bottom: 2px solid #c0c0c0;
+    height: 14rem;
+    margin-bottom: 1rem;
 }
 .social_links span{
     margin-right: 1rem;
 }
-
+p{
+    display: none;
+}
 @media only screen and (max-width: 375px){
     #about{
         padding-top: 1rem;
@@ -79,15 +83,17 @@
         font-size: 0.7rem;
     }
     .about_content{
-        padding: 0 0.4rem;
+        padding: 0.2 0.5rem;
         width: 100% !important;
     }
     .header_about{
         margin-bottom: 0 !important;
     }
-    .about_content p{
-        font-size: 0.9rem;
-        line-height: 1.7rem;
+    .about_typed-text{
+        display: none;
+    }
+    p{
+        display: block;
     }
     .social_links{
         text-align: center;

@@ -6,6 +6,7 @@ import aboutImg from './aboutImg.png'
 import { Education } from "../education/Education";
 import { Skills } from '../skills/Skills';
 import { Activity } from '../activity/Activity';
+import Typed from 'react-typed';
 
 export const About = () => {
   const [aboutFilter, setAboutFilter] = useState('ABOUT');
@@ -35,6 +36,12 @@ export const About = () => {
 
                             <div className='about_content'>
                                 <h2>I'm Golam Mostafa</h2>
+                                <Typed className='about_typed-text'
+                                strings={[
+                                'A hardworking and energetic programmer who cherishes a dream to change the world through coding and seeking an opportunity from a reputed company to explore latent talent and nourish skills.',
+                                 'A']}
+                                typeSpeed={30}
+                                loop/>
                                 <p>A hardworking and energetic programmer who cherishes a dream to change the world through coding and seeking an opportunity from a reputed company to explore latent talent and nourish skills.</p>
                                 <div className='social_links'>
                                     <span><a href='#'><FaFacebookF /></a></span>
