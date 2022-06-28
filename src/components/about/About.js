@@ -42,7 +42,6 @@ export const About = () => {
                                  'A']}
                                 typeSpeed={30}
                                 loop/>
-                                <p>A hardworking and energetic programmer who cherishes a dream to change the world through coding and seeking an opportunity from a reputed company to explore latent talent and nourish skills.</p>
                                 <div className='social_links'>
                                     <span><a href='#'><FaFacebookF /></a></span>
                                     <span><a href='#'><FaLinkedin /></a></span>

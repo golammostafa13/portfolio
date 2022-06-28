@@ -45,6 +45,7 @@
 
 .about_content{
     width: 75%;
+    position:relative;
 }
 .about_typed-text{
     font-weight: 300;
@@ -60,6 +61,12 @@
     text-transform: capitalize;
 }
 
+.social_links{
+    left: 0;
+    bottom: 0;
+    position: absolute;
+}
+
 .social_links span a {
     color: #bbb4f0;
 }
@@ -71,9 +78,7 @@
 .social_links span{
     margin-right: 1rem;
 }
-p{
-    display: none;
-}
+
 @media only screen and (max-width: 375px){
     #about{
         padding-top: 1rem;
@@ -92,11 +97,9 @@ p{
     .about_typed-text{
         display: none;
     }
-    p{
-        display: block;
-    }
     .social_links{
         text-align: center;
+        
     }
     .about_content h2{
         font-size: 1.12rem;

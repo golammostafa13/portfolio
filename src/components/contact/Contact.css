@@ -18,7 +18,7 @@ section h2{
     margin-bottom: 1rem;
 }
 
-.single_info-box p{
+.single_info-box span{
     font-weight: 300;
     margin: 10px 5px;
     font-size: 0.9rem;
@@ -30,6 +30,10 @@ section h2{
     font-size: 1.1rem;
     color: white;
     text-align: center;
+}
+.single_info-box p{
+    text-align: center;
+    font-size: 0.8rem;
 }
 
 @media only screen and (max-width: 375px){

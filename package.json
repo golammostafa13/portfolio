@@ -49,5 +49,13 @@
   },
   "devDependencies": {
     "gh-pages": "^4.0.0"
-  }
+  },
+  "description": "golammostafa13.github.io",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "yes"
+  },
+  "author": "",
+  "license": "ISC"
 }
