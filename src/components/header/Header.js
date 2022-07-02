@@ -1,6 +1,6 @@
 import React from 'react'
 import Typed from 'react-typed'
-const resumeUrl = 'https://drive.google.com/file/d/1fcsZi8USSuqJat2KAjUi1_tdsSJbmqyb/view?usp=sharing';
+const resumeUrl = 'https://drive.google.com/file/d/1wW-Cdqttwg10hA_uUW-mMzMCyhEmnImC/view?usp=sharing';
 
 export const Header = () => {
   return (
