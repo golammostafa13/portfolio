@@ -8,6 +8,10 @@ import { Skills } from '../skills/Skills';
 import { Activity } from '../activity/Activity';
 import Typed from 'react-typed';
 
+const fbUrl = 'https://www.facebook.com/golammostafarmstu';
+const linkendUrl = 'https://www.linkedin.com/in/golam-mostafa-09b7811b7/';
+const twitterUrl = 'https://twitter.com/MostafaRmstu';
+
 export const About = () => {
   const [aboutFilter, setAboutFilter] = useState('ABOUT');
   return (
@@ -43,9 +47,9 @@ export const About = () => {
                                 typeSpeed={30}
                                 loop/>
                                 <div className='social_links'>
-                                    <span><a href='#'><FaFacebookF /></a></span>
-                                    <span><a href='#'><FaLinkedin /></a></span>
-                                    <span><a href='#'><FaTwitter /></a></span>
+                                    <span><a href={fbUrl}><FaFacebookF /></a></span>
+                                    <span><a href={linkendUrl}><FaLinkedin /></a></span>
+                                    <span><a href={twitterUrl}><FaTwitter /></a></span>
                                 </div>
                             </div>
                         </div>
