@@ -1,24 +1,26 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.31bd8433.css",
-    "main.js": "/portfolio/static/js/main.df0262e6.js",
+    "main.js": "/portfolio/static/js/main.dc2a7112.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/img7.png": "/portfolio/static/media/img7.6c8b3d2f2a2cc448c249.png",
     "static/media/aboutImg.png": "/portfolio/static/media/aboutImg.18a3fda8cf0204fc8abb.png",
     "static/media/img8.png": "/portfolio/static/media/img8.e213590fbe319b4594b9.png",
     "static/media/fbPage.png": "/portfolio/static/media/fbPage.8e17950dee64ca92d86b.png",
-    "static/media/image2-odin-ecom.png": "/portfolio/static/media/image2-odin-ecom.adb6c20794d961d3e3fe.png",
+    "static/media/cv.jpeg": "/portfolio/static/media/cv.bfd76971666ef10ececa.jpeg",
     "static/media/image1-weather.png": "/portfolio/static/media/image1-weather.45e5c5a2b812c43933fb.png",
-    "static/media/image4-cv.png": "/portfolio/static/media/image4-cv.78442529cc637e0d159a.png",
+    "static/media/nasa.jpeg": "/portfolio/static/media/nasa.87290f9f66b936959fac.jpeg",
     "static/media/img6.png": "/portfolio/static/media/img6.76d3a581f9600a34f6d0.png",
     "static/media/logo.png": "/portfolio/static/media/logo.07342dd4fa0e9e42e10a.png",
+    "static/media/e-com.jpeg": "/portfolio/static/media/e-com.1a948ce58553660a3352.jpeg",
+    "static/media/quiz.jpeg": "/portfolio/static/media/quiz.967cb75790514a8e8800.jpeg",
     "index.html": "/portfolio/index.html",
     "main.31bd8433.css.map": "/portfolio/static/css/main.31bd8433.css.map",
-    "main.df0262e6.js.map": "/portfolio/static/js/main.df0262e6.js.map",
+    "main.dc2a7112.js.map": "/portfolio/static/js/main.dc2a7112.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.31bd8433.css",
-    "static/js/main.df0262e6.js"
+    "static/js/main.dc2a7112.js"
   ]
 }
